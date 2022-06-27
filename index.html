@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta id="testViewport" name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta charset="UTF-8">
+<title>RGB to HEX Converter</title>
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="files/styles/styles.css" rel="stylesheet" type="text/css">
+<link href="files/styles/responsive.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"><\/script>')</script>
+<script src="files/js/script.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <h2>rgb <=> hex <span>converter</span></h2>
+    <form>
+      <div class="rgb">
+        <div class="rgb-input">
+          <div class="r">
+            <label class="bg bg-red">R</label>
+            <input type="text" id="r" name="r" placeholder="00" maxlength="3">
+          </div>
+          <div class="g">
+            <label class="bg bg-green">G</label>
+            <input type="text" id="g" name="g" placeholder="00" maxlength="3">
+          </div>
+          <div class="b">
+            <label class="bg bg-blue">B</label>
+            <input type="text" id="b" name="b" placeholder="00" maxlength="3">
+          </div>
+        </div>
+        <div id="hex-display" >HEX#:</div>
+        <div class="btn"><button id="btn-rgb-hex" class="btn-rgb-hex">RGB to HEX</button></div>
+      </div>
+      <div class="hex">
+        <label>HEX # <span class="font-small">(No need to input #)</span></label>
+        <input type="text" id="hex" name="hex" placeholder="000000" maxlength="6">
+        <div id="rgb-display">RGB:</div>
+        <div class="btn"><button id="btn-hex-rgb" class="btn-hex-rgb">HEX to RGB</button></div>
+      </div>
+    </form>
+    <h4><a href="#" target="_blank">View source at Github</a></h4>
+  </div>
+</body>
+</html>
