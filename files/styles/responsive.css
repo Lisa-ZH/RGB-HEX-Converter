@@ -1,26 +1,4 @@
-@media only screen and (max-width: 700px) {
-    .container{
-        width: 100%;
-    }
-    form{
-        flex-direction: column;
-    }
-    
-    .rgb{
-        border: none;
-        margin: 0 auto;
-        padding-right: 0;
-        padding-bottom: 20px;
-        border-bottom: 1px dashed #333333;
-    }
-    .r, .g, .b{
-        padding: 0 10px;
-    }
-    .hex{
-        display: block;
-        margin: 0 auto;
-    }
-}
+
 
 @media only screen and (max-width: 450px) {
     form{
