@@ -23,5 +23,13 @@
 }
 
 @media only screen and (max-width: 450px) {
+    form{
+        width: 350px;
+    }
+}
 
+@media only screen and (max-width: 350px) {
+    form{
+        width: 300px;
+    }
 }
