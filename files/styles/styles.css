@@ -59,7 +59,8 @@ form{
 	flex-direction: row;
 	justify-content: space-around;
 	align-content: center;
-	width: 600px;
+	width: 400px;
+	max-width: 450px;
 	margin: 0 auto;
 	padding: 5% 0;
 	background-color: #fff;
