@@ -37,7 +37,7 @@ $(document).ready(function(){
 
     function RGBFormular(anyNumber){
         anyNumber = Number(anyNumber);
-        var text = hexArr[Math.floor(anyNumber/16)] + hexArr[(anyNumber/16 - Math.floor(anyNumber/16)) * 16];
+        var text = hexArr[Math.floor(anyNumber/16)].toString() + hexArr[(anyNumber/16 - Math.floor(anyNumber/16)) * 16].toString();
         if(text >=0 && text <= 9) {
             return text = "0" + text;
         }
